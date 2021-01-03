@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gotham A", "Gotham B", arial;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.header-section {
+    display: flex;
+    padding: 30px;
+}
+
+.nav-section {
+    font-family: "Gotham A", "Gotham B", arial;
+    width: 100%;
+}
+
+nav.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.nav-items-right, .nav-items-left {
+    list-style-type: none;
+    display: flex;
+    padding: 0 20px 0 20px;
+}
+
+.nav-items-left a, .nav-items-right a {
+    text-decoration: none;
+    color: black;
+    padding: 0 10px 0 10px;
+    font-weight: bold;
+}
+
+.banner-section {
+    background-image: url(banner.jpg);
+    height: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #263140;
+}
+
+.banner-cta {
+    text-align: center;
+    padding: 110px 0 60px 0;
+}
+
+.banner-cta h2 {
+    font-weight: 700;
+    font-family: "Gotham Cond A", "Gotham Cond B", arial;
+    font-size: 52px;
+    font-size: normal;
+    line-height: 0.9;
+}
+
+.banner-cta button {
+    border: none;
+    background-color: #eb0089;
+    padding: 30px 60px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-top: 40px;
+}
