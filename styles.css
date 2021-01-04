@@ -18,12 +18,25 @@ body {
 h1, h2, h3, h4, h5 {
     color: #263140;
     font-family: 'Teko', sans-serif, arial;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transform: scale(1, 1.4);
+    letter-spacing: -.25px;
 }
 
 ul, li, p {
     color: #263140;
     font-family: "Harriet Text", Georgia;
     line-height: 1.5;
+}
+
+p {
+    letter-spacing: 1.6px;
+}
+
+h3 {
+    font-size: 42px;
+    line-height: 1.1;
 }
 
 .button {
@@ -102,49 +115,56 @@ nav.nav {
 
 .banner-cards {
     display: flex;
-    margin-top: 380px;
     text-align: center;
     justify-content: center;
     height: 152px;
+    width: 1400px;
+    margin: auto;
+    margin-top: 380px;
 }
 
 .site-container {
     background-color: #F7F7F7;
 }
 
-.card-one, .card-two, .card-three {
+.card-one, .card-two, .card-three, .card-four, .card-five {
     width: 280px;
 }
 
-.card-one h5, .card-three h5 {
+.card-one h5, .card-two h5, .card-four h5, .card-five h5 {
     font-size: 22px;
     font-weight: 500;
     line-height: 1.1;
     margin-bottom: 3px;
 }
 
-.card-one h4, .card-three h4 {
+.card-one h4, .card-two h4, .card-four h4, .card-five h4 {
     font-weight: 600;
     font-size: 36px;
     letter-spacing: .8px;
 }
 
-.card-two h3 {
+.card-three h3 {
     font-weight: 600;
     font-size: 44px;
     letter-spacing: 1px;
-    margin-top: 32px;
+    margin-top: 38px;
     transform: scale(1, 1.4);
     letter-spacing: -.25px;
 }
 
-.card-two {
+.card-three {
     margin-top: -10px;
 }
 
 .five-stars {
     width: 190px;
     margin-top: -30px;
+}
+
+.shop-container {
+    width: 1400px;
+    margin: auto;
 }
 
 section.offset-section {
@@ -169,16 +189,6 @@ section.offset-section {
     align-items: center;
 }
 
-.offset-content h3 {
-    font-weight: 600;
-    font-size: 42px;
-    letter-spacing: 1px;
-    margin-top: 32px;
-    transform: scale(1, 1.4);
-    letter-spacing: -.25px;
-    line-height: 1.1;
-}
-
 .offset-content p  {
     font-size: 1.5rem;
     margin-top: 35px;
@@ -192,4 +202,64 @@ section.offset-section {
     border: 4px solid #263140;
     font-size: 1.13rem;
     margin-top: 35px;
+}
+
+.icon-cards-section {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 80px;
+    margin-bottom: 100px;
+}
+
+.icon-cards-section img {
+    width: 125px;
+    margin-bottom: 20px;
+}
+
+.icon-card-one, .icon-card-two, .icon-card-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-cards-section p {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+.title-cards-section {
+    text-align: center;
+    padding: 70px 0;
+    background-color: #fff;
+}
+
+.title-cards-section h3 {
+    margin-bottom: 80px;
+}
+
+.title-cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-card-one, .title-card-two, .title-card-three, .title-card-four {
+    min-width: 300px;
+    max-width: 340px;
+}
+
+.title-cards img {
+    width: 120px;
+}
+
+.title-cards h5 {
+    font-size: 1.1rem;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 2px;
+    margin: 30px 0;
+}
+
+.title-cards p {
+    font-size: 1.4rem;
 }
