@@ -15,6 +15,14 @@ body {
     height: 100%;
 }
 
+h1, h2, h3, h4, h5 {
+    color: #263140;
+}
+
+ul, li, p {
+    color: #263140;
+}
+
 .header-section {
     display: flex;
     padding: 30px;
@@ -56,24 +64,70 @@ nav.nav {
 
 .banner-cta {
     text-align: center;
-    padding: 110px 0 60px 0;
+    padding: 140px 0 60px 0;
 }
 
 .banner-cta h2 {
     font-weight: 700;
-    font-family: "Gotham Cond A", "Gotham Cond B", arial;
-    font-size: 52px;
+    font-family: 'Teko', sans-serif, arial;
+    font-size: 63px;
     font-size: normal;
-    line-height: 0.9;
+    line-height: 0.8;
+    letter-spacing: -.5px;
+    transform: scale(1, 1.35);
 }
 
 .banner-cta button {
     border: none;
     background-color: #eb0089;
-    padding: 30px 60px;
+    padding: 32px 60px;
     color: white;
-    font-weight: bold;
     font-size: 18px;
     border-radius: 4px;
-    margin-top: 40px;
+    margin-top: 50px;
+}
+
+.banner-cards {
+    display: flex;
+    margin-top: -180px;
+    text-align: center;
+    justify-content: center;
+}
+
+.card-one, .card-two, .card-three {
+    width: 280px;
+}
+
+.card-one h5, .card-three h5 {
+    font-size: 22px;
+    font-family: 'Teko', sans-serif, arial;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 3px;
+}
+
+.card-one h4, .card-three h4 {
+    font-family: 'Teko', sans-serif, arial;
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: .8px;
+}
+
+.card-two h3 {
+    font-family: 'Teko', sans-serif, arial;
+    font-weight: 600;
+    font-size: 44px;
+    letter-spacing: 1px;
+    margin-top: 32px;
+    transform: scale(1, 1.4);
+    letter-spacing: -.25px;
+}
+
+.card-two {
+    margin-top: -10px;
+}
+
+.five-stars {
+    width: 190px;
+    margin-top: -30px;
 }
