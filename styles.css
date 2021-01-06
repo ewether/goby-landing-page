@@ -531,3 +531,138 @@ section.offset-section {
     width: 38px;
     opacity: 0.35;
 }
+
+@media only screen and (max-width: 500px) {
+    .banner-cards .card-one, .banner-cards .card-five, 
+    .banner-cards .card-two, .banner-cards .card-four {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container, .site-container, .shop-container,
+    .title-cards-section, .reviews-section-wrapper,
+    .testimonial-section, .footer-section {
+        max-width: 768px;
+        width: unset;
+    }
+
+    .banner-section {
+        background-image: url(images/mobile-banner.jpg);
+        height: 810px;
+        background-position: bottom center;
+    }
+    
+    .banner-cta {
+        padding: 100px 0 60px 0;
+    }
+    
+    .banner-cta h2 {
+        font-size: 46px;
+    }
+    
+    .banner-cta .button {
+        margin-top: 400px;
+    }
+    
+    .banner-cards {
+        position: absolute;
+        width: 100%;
+        margin: auto;
+        background-color: #F0EEEE;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        height: 340px;
+    }
+
+    .banner-cards h5 {
+        font-size: 1.4rem;
+        font-weight: 400;
+        letter-spacing: 2.5px;
+        transform: unset;
+    }
+
+    .banner-cards h4 {
+        font-size: 1.6rem;
+        margin-top: 10px;
+    }
+
+    .banner-cards h3 {
+        font-size: 2.5rem;
+    }
+
+    .card-two {
+        order: 2;
+        /* text-align: right; */
+        margin: 20px 10px 0 0;
+    }
+
+    .card-four {
+        order: 3;
+        /* text-align: left; */
+        margin: 20px 0 0 10px;
+    }
+
+    .card-three {
+        margin-top: 5px;
+        order: 1;
+        width: 100%;
+    }
+
+    .banner-cards .card-two, .banner-cards .card-four {
+        width: 46%;
+    }
+
+    .banner-cards .card-one, .banner-cards .card-five {
+        display: none;
+    }
+
+    .offset-image {
+        display: none;
+    }
+
+    .offset-content {
+        margin-top: 360px;
+        padding-bottom: 80px;
+        width: 100%;
+    }
+
+    .icon-cards-section {
+        flex-direction: column;
+        margin: 30px;
+    }
+
+    .title-cards-section h3 {
+        font-size: 2.2rem;
+    }
+
+    .icon-card-two {
+        margin: 80px 0 80px;
+    }
+
+    .title-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .reviews-section-wrapper {
+        padding: 30px;
+    }
+
+    .reviews-section {
+        padding: 80px 30px 80px;
+    }
+
+    .slide-3 h5 {
+        margin-bottom: 38px;
+    }
+
+    .testimonial-section {
+        padding: 140px 40px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+
+}
