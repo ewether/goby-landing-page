@@ -328,9 +328,9 @@ section.offset-section {
     text-align: center;
     width: 100%;
     max-width: 1000px;
-    height: 540px;
+    height: 570px;
     margin: auto;
-    padding: 80px 200px 100px;
+    padding: 80px 140px 100px;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -344,13 +344,13 @@ section.offset-section {
     display: none;
 }
 
-.slides p {
+.review-text {
     font-size: 1rem;
-    margin: 60px auto 40px;
-    max-width: 450px;
+    margin-bottom: 30px;
+    max-width: 470px;
 }
 
-.slides h5 {
+.review-author {
     font-size: .7rem;
     font-family: 'Ubuntu', sans-serif;
     letter-spacing: 1.25px;
@@ -375,13 +375,51 @@ section.offset-section {
     padding: 24px 30px;
     border: 2px solid #263140;
     font-size: .75rem;
-    margin: 80px auto 0;
+    margin: 0 auto;
 }
 
 .review-button:hover {
     background-color: #253041;
     color: white;
     transition: .4s;
+}
+
+.testimonials-section {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 270px;
+    margin: 30px 50px;
+    padding: 0 40px;
+    border: 1px solid #253041;
+    border-radius: 2px;
+    width: 100%;
+    align-items: center;
+}
+
+.next-button, .previous-button {
+    height: 34px;
+    width: 40px;
+    max-width: 40px;
+    color: white;
+    background-color: #253041;
+    opacity: .85;
+    border: none;
+    border-radius: 4px;
+    font-size: 24px;
+    align-self: center;
+    /* font-weight: bold; */
+}
+
+.next-button:hover, .previous-button:hover {
+    opacity: 1;
+    cursor: pointer;
+    transition: 0.13s ease-in-out;
 }
 
 .fade {
@@ -401,7 +439,7 @@ section.offset-section {
     to {opacity: 1}
   }
 
-.testimonial-section {
+.nyt-section {
     text-align: center;
     padding: 140px 60px;
     width: 100%;
@@ -415,7 +453,7 @@ section.offset-section {
     margin-bottom: 50px;
 }
 
-.testimonial-section h5 {
+.nyt-section h5 {
     font-family: 'Ubuntu', sans-serif;
     font-size: .75rem;
     letter-spacing: 1px;
@@ -423,7 +461,7 @@ section.offset-section {
     margin-bottom: 25px;;
 }
 
-.testimonial-section p {
+.nyt-section p {
     font-size: 1.1rem;
 }
 
@@ -768,7 +806,7 @@ section.offset-section {
 @media only screen and (max-width: 768px) {
     .container, .site-container, .shop-container,
     .title-cards-section, .reviews-section-wrapper,
-    .testimonial-section, .footer-section {
+    .nyt-section, .footer-section {
         max-width: 768px;
         width: unset;
     }
@@ -893,7 +931,7 @@ section.offset-section {
         margin-bottom: 38px;
     }
 
-    .testimonial-section {
+    .nyt-section {
         padding: 130px 30px;
     }
 
