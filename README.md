@@ -12,13 +12,10 @@ JavaScript
 
 I recreated the original landing page (https://www.goby.co/) to practice responsive web design.
 
-## Screenshots
+## Screenshot
 
 <table>
   <tr>
     <td><img src="https://github.com/ewether/goby-landing-page/blob/main/images/screenshots/fullscreen%20screenshot.png" width="300px"></td>
-  </tr>
-  <tr>
-    <td><img src="https://github.com/ewether/goby-landing-page/blob/main/images/screenshots/smallscreen%20screenshot.png" width="300px"></td>
   </tr>
 </table>
