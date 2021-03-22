@@ -16,6 +16,7 @@ I recreated the original landing page (https://www.goby.co/) to practice respons
 
 <table>
   <tr>
-    <td><img src="" width="300px"></td>
+    <td><img src="https://github.com/ewether/goby-landing-page/blob/main/images/screenshots/fullscreen%20screenshot.png" width="300px"></td>
+    <td><img src="https://github.com/ewether/goby-landing-page/blob/main/images/screenshots/smallscreen%20screenshot.png" width="300px"></td>
   </tr>
 </table>
